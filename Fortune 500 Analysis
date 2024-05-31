@@ -58,7 +58,7 @@ VALUES
     ('Company JJ', 'Manufacturing', 370.0, 3100, 1, 20, 12, 7.6),
     ('Company KK', 'Healthcare', 150.2, 3400, 0, 16, 8, 5.3);
 
-#Analysis:
+#For this project, I used SQL to query the Fortune 500 database to get information to help answer questions I came up with based of the database.
 
 --Which company offers the most maternity leave?
 SELECT MAX(maternity_leave_weeks), company_name
